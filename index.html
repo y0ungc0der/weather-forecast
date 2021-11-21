@@ -1,0 +1,54 @@
+<!-- Coded by Arina Matvienko © 2018 -->
+<html>
+  <head>
+    <title>Weather forecast</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="script.js"></script>
+  </head>
+	<body>
+	 <div class="preloading">
+		<img src="imgs/loading_3.gif"/>
+		<div class="text">Loading weather forecast...</div>
+	 </div>
+	 <div class="weather-app">
+		<div class="location"><span id="location"></span></div>
+		<div class="temp_and_im">
+			<div class="im"><img id="icon"/></div>
+			<div class="temperature" id="temperature"></div>
+		</div>
+		<div class="type" id="type"></div> 
+		<div class="info" id="info"></div>
+		
+		<table class="days">
+			<caption>By days:</caption>
+			<tr>
+				<th>
+					<div class="m_date" id="m_date_1"></div>
+					<div class="m_img"><img id="m_img_1"></div>
+					<div class="m_temp" id="m_temp_1"></div>
+					<div class="m_state" id="m_state_1"></div>
+				</th>
+				<th>
+					<div class="m_date" id="m_date_2"></div>
+					<div class="m_img"><img id="m_img_2"></div>
+					<div class="m_temp" id="m_temp_2"></div>
+					<div class="m_state" id="m_state_2"></div>
+				</th>
+				<th>
+					<div class="m_date" id="m_date_3"></div>
+					<div class="m_img"><img id="m_img_3"></div>
+					<div class="m_temp" id="m_temp_3"></div>
+					<div class="m_state" id="m_state_3"></div>
+				</th>
+				<th>
+					<div class="m_date" id="m_date_4"></div>
+					<div class="m_img"><img id="m_img_4"></div>
+					<div class="m_temp" id="m_temp_4"></div>
+					<div class="m_state" id="m_state_4"></div>
+				</th>
+			</tr>
+		</table>
+	 </div>
+	</body>
+</html>
